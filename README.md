@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# Student Lead Management App (Mini CRM)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple **React Native (Expo)** application that acts as a mini CRM to manage student leads.  
+Users can add, view, and delete student leads with persistent local storage.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- Add new student leads using a form
+- Display leads using `FlatList`
+- View lead details on a separate screen
+- Delete a student lead
+- Stack navigation between screens
+- Local data persistence using `AsyncStorage`
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- React Native
+- Expo
+- React Navigation (Native Stack)
+- AsyncStorage
+- JavaScript (Functional Components + Hooks)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📱 Screenshots
 
-## Get a fresh project
+### Lead List Screen
+![Lead List](screenshots/lead-list.png)
 
-When you're ready, run:
+### Add Lead Screen
+![Add Lead](screenshots/add-lead.png)
+
+### Lead Detail Screen
+![Lead Detail](screenshots/lead-details.png)
+
+---
+
+## ▶️ How to Run the Project
+
+### Prerequisites
+- Node.js installed
+- Expo Go app installed on mobile
+
+### Steps
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/<your-username>/student-lead-management-app.git
+cd student-lead-management-app
+npm install
+npm start
